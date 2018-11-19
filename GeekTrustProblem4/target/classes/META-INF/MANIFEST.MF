@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: GeekTrustProblem4
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: mailm
+Implementation-Vendor-Id: com.lkm.accenture
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/GeekTrustPro
+ blem4/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.geektrust.problem4.bean.PlayerListReader",
+      "name": "data",
+      "type": "com.geektrust.problem4.bean.PlayerListReader"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.geektrust.problem4.bean.PlayerListReader",
+      "name": "data.description",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.geektrust.problem4.bean.PlayerListReader",
+      "name": "data.draw-lenga-buru",
+      "type": "java.util.List<com.geektrust.problem4.bean.Player>"
+    },
+    {
+      "sourceType": "com.geektrust.problem4.bean.PlayerListReader",
+      "name": "data.enchaidraw",
+      "type": "java.util.List<com.geektrust.problem4.bean.Player>"
+    },
+    {
+      "sourceType": "com.geektrust.problem4.bean.PlayerListReader",
+      "name": "data.lenga-buru",
+      "type": "java.util.List<com.geektrust.problem4.bean.Player>"
+    }
+  ]
+}
