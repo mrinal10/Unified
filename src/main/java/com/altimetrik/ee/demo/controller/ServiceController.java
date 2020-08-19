@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.altimetrik.ee.demo.bean.PairedComponentDetailsBean;
-import com.altimetrik.ee.demo.service.ComponentDetailsService;
+import com.altimetrik.ee.demo.bean.DummyBean;
 
 import io.swagger.annotations.ApiOperation;
 
@@ -23,12 +22,13 @@ public class ServiceController {
 	private String applicationName;
 
 	@Autowired
-	private ComponentDetailsService componentDetailsService;
+	DummyBean dummyData;
 
-	@GetMapping(value = "/")
-	@ApiOperation(value = "Get service name and identifier", notes = "Get service details and its corresponding values for all paired services", response = PairedComponentDetailsBean.class)
-	public PairedComponentDetailsBean findAll() {
-		return componentDetailsService.findAll(this.applicationName);
+	@GetMapping(value = "/getData")
+	@ApiOperation(value = "Get service name and identifier", notes = "Get service details and its corresponding values for all paired services", response = DummyBean.class)
+	public DummyBean findAll() {
+		
+		return dummyData;
 	}
 
 }
