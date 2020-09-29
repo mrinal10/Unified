@@ -1,31 +1,38 @@
-# Spring properties
-spring:
-  application:
-     name: demo  # Service registers under this name
+config:
+  productWiseOperationList:
+    book: 
+      - generateShippingSlip
+      - generateDuplicatePackingSlipRoaylty
+      - giveAgentCommision 
+    product:
+      - generateShippingSlip
+      - giveAgentCommision
+    membership:
+      - sendEmail
+    membership_upgrade:
+      - sendEmail
+      - applyUpgrade
+    video:
+      - askVideoName
+      - provideVideo
+    free_video: 
+      learning_to_ski: First_Aid
+      
+  advanceOps:
+    - askVideoName    
 
-cron:
-  component:
-    identifier:
-      reg-ex: 0 0/60 * * * ?
-
-# HTTP Server
-server:
-  port: 8080  # HTTP (Tomcat) port
-  undertow: 
-    accesslog: 
-      enabled: true
-
-# Logging configurations
-logging:
-  level:
-    root: INFO
-    com.memorynotfound: DEBUG
-    org.springframework.web: INFO
-    org.springframework.security: INFO
-    org.hibernate.SQL: WARN
+  operations:
+    generateShippingSlip: The Shipping slip is generated
+    generateDuplicatePackingSlipRoaylty: Duplicate Packaging slip for Royalty is generated
+    giveAgentCommision: Commision to Agent given
+    applyUpgrade: Membership Upgraded
+    sendEmail: Related Email send to the user
+    askVideoName: What is the video name
+    provideVideo: Video provided
     
-    
-#JWT config
-jwt: 
-  secret: mrinal
-  token-validity-in-seconds: 300
+  productnames:
+    - book
+    - membership
+    - membership_upgrade
+    - video
+    - product 
