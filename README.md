@@ -14,8 +14,8 @@ the mentioned productname is any of the product names that are configured in the
 
 3) for each operation the action needs to be configured. 
 
-## We can also design it like, for each operation the action can be configured as a Method name, and that particular nethod will be invoked 
-## using Java reflection, but currently we just returning the action string Only.
+## We can also design it like, for each operation the action can be configured as a Method name, and that particular nethod will be invoked using Java reflection.
+## Currently we are just returning the action string Only.
 
 
 
