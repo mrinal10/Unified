@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>java:com.reputation.demo.SpringBootDemoApplication</config>
+		<config>java:com.test.demo.SpringBootDemoApplication</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
