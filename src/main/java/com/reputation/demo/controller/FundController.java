@@ -11,7 +11,7 @@ import com.reputation.demo.model.ResponseData;
 import com.reputation.demo.service.FundService;
 
 @RestController
-public class EmployeeController {
+public class FundController {
 	
 	@Autowired
 	FundService fundService;
