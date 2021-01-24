@@ -35,7 +35,7 @@ public class ChessController {
 		return null;
     }
 	
-	@GetMapping("chessGame")
+	@GetMapping("/")
     public NextMove getDummy() {		
 		NextMove nextMove = new NextMove();
 		nextMove.setChessColour(PieceColour.BLACK);
