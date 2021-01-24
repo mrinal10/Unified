@@ -3,11 +3,17 @@ package com.cars24.demo.model;
 import com.cars24.demo.utilenum.ChessPieceEnum;
 import com.cars24.demo.utilenum.MoveEnum;
 import com.cars24.demo.utilenum.PieceColour;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class NextMove {
+	@JsonIgnore
 	private PieceColour chessColour;
+	@JsonIgnore
 	private Move playerMove;
+	
+	@JsonIgnore
 	private ChessPieceEnum chessEnum;
+	@JsonIgnore
 	private String gameToken;
 	private MoveEnum moveEnum;
 	
