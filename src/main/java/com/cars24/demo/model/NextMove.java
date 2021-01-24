@@ -1,40 +1,44 @@
 package com.cars24.demo.model;
 
+import com.cars24.demo.utilenum.ChessPieceEnum;
+import com.cars24.demo.utilenum.MoveEnum;
+import com.cars24.demo.utilenum.PieceColour;
+
 public class NextMove {
-	private String chessColour;
+	private PieceColour chessColour;
 	private Move playerMove;
-	private Enum chessEnum;
+	private ChessPieceEnum chessEnum;
 	private String gameToken;
-	private Enum moveEnum;
+	private MoveEnum moveEnum;
 	
-	public String getChessColour() {
+	public PieceColour getChessColour() {
 		return chessColour;
 	}
 	public Move getPlayerMove() {
 		return playerMove;
 	}
-	public Enum getChessEnum() {
+	public ChessPieceEnum getChessEnum() {
 		return chessEnum;
 	}
-	public void setChessColour(String chessColour) {
+	public void setChessColour(PieceColour chessColour) {
 		this.chessColour = chessColour;
 	}
 	public void setPlayerMove(Move playerMove) {
 		this.playerMove = playerMove;
 	}
-	public void setChessEnum(Enum chessEnum) {
+	public void setChessEnum(ChessPieceEnum chessEnum) {
 		this.chessEnum = chessEnum;
 	}
 	public String getGameToken() {
 		return gameToken;
 	}
-	public Enum getMoveEnum() {
+	public MoveEnum getMoveEnum() {
 		return moveEnum;
 	}
 	public void setGameToken(String gameToken) {
 		this.gameToken = gameToken;
 	}
-	public void setMoveEnum(Enum moveEnum) {
+	public void setMoveEnum(MoveEnum moveEnum) {
 		this.moveEnum = moveEnum;
 	}
 }

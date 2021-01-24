@@ -1,0 +1,30 @@
+{
+  "groups": [{
+    "name": "",
+    "type": "com.cars24.demo.utilenum.YAMLConfig",
+    "sourceType": "com.cars24.demo.utilenum.YAMLConfig"
+  }],
+  "properties": [
+    {
+      "name": "enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.cars24.demo.utilenum.YAMLConfig"
+    },
+    {
+      "name": "environment",
+      "type": "java.lang.String",
+      "sourceType": "com.cars24.demo.utilenum.YAMLConfig"
+    },
+    {
+      "name": "name",
+      "type": "java.lang.String",
+      "sourceType": "com.cars24.demo.utilenum.YAMLConfig"
+    },
+    {
+      "name": "servers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.cars24.demo.utilenum.YAMLConfig"
+    }
+  ],
+  "hints": []
+}

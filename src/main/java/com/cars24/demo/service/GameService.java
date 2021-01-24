@@ -15,10 +15,11 @@ import org.springframework.stereotype.Service;
 import com.cars24.demo.model.ResponseData;
 
 @Service
-public class FundService {
+public class GameService {
 	
 
-	public List<ResponseData> getFundData(String fundId, String horizon, String periodOfInvestement) {
+	public ResponseData startGame() {
+		
 		return null;
 	}
 

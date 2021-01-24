@@ -1,0 +1,132 @@
+server:
+  port: 8084
+
+config:
+  A1: 
+    colour: WHITE
+    piece: Rook      
+    srNo: 1
+  B1: 
+    colour: WHITE
+    piece: Knight      
+    srNo: 1
+  C1: 
+    colour: WHITE
+    piece: Bishop      
+    srNo: 1
+  D1: 
+    colour: WHITE
+    piece: Queen      
+    srNo: 1
+  E1: 
+    colour: WHITE
+    piece: King      
+    srNo: 1
+  F1: 
+    colour: WHITE
+    piece: Bishop      
+    srNo: 2
+  G1: 
+    colour: WHITE
+    piece: Knight      
+    srNo: 2
+  H1: 
+    colour: WHITE
+    piece: Rook      
+    srNo: 2
+  A2: 
+    colour: WHITE
+    piece: Pawn      
+    srNo: 1
+  B2: 
+    colour: WHITE
+    piece: Pawn      
+    srNo: 2
+  C2: 
+    colour: WHITE
+    piece: Pawn      
+    srNo: 3
+  D2: 
+    colour: WHITE
+    piece: Pawn      
+    srNo: 4
+  E2: 
+    colour: WHITE
+    piece: Pawn      
+    srNo: 5
+  F2: 
+    colour: WHITE
+    piece: Pawn      
+    srNo: 6
+  G2: 
+    colour: WHITE
+    piece: Pawn      
+    srNo: 7
+  H2: 
+    colour: WHITE
+    piece: Pawn      
+    srNo: 8    
+  A8: 
+    colour: BLACK
+    piece: Rook      
+    srNo: 1
+  B8: 
+    colour: BLACK
+    piece: Knight      
+    srNo: 1
+  C8: 
+    colour: BLACK
+    piece: Bishop      
+    srNo: 1
+  D8: 
+    colour: BLACK
+    piece: Queen      
+    srNo: 1
+  E8: 
+    colour: BLACK
+    piece: King      
+    srNo: 1
+  F8: 
+    colour: BLACK
+    piece: Bishop      
+    srNo: 2
+  G8: 
+    colour: BLACK
+    piece: Knight      
+    srNo: 2
+  H8: 
+    colour: BLACK
+    piece: Rook      
+    srNo: 2
+  A7: 
+    colour: BLACK
+    piece: Pawn      
+    srNo: 1
+  B7: 
+    colour: BLACK
+    piece: Pawn      
+    srNo: 2
+  C7: 
+    colour: BLACK
+    piece: Pawn      
+    srNo: 3
+  D7: 
+    colour: BLACK
+    piece: Pawn      
+    srNo: 4
+  E7: 
+    colour: BLACK
+    piece: Pawn      
+    srNo: 5
+  F7: 
+    colour: BLACK
+    piece: Pawn      
+    srNo: 6
+  G7: 
+    colour: BLACK
+    piece: Pawn      
+    srNo: 7
+  H7: 
+    colour: BLACK
+    piece: Pawn      
+    srNo: 8
