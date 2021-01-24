@@ -3,12 +3,14 @@ package com.cars24.demo.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cars24.demo.model.NextMove;
 import com.cars24.demo.model.ResponseData;
 import com.cars24.demo.service.FundService;
+import com.cars24.demo.utilenum.MoveEnum;
 
 @RestController
 public class ChessController {
@@ -16,10 +18,18 @@ public class ChessController {
 	@Autowired
 	FundService fundService;
 	
-	@RequestMapping("calculatereturn/{fundId}/{horizon}/{investementPeriod}")
-    public List<ResponseData> getDetails(@PathVariable("fundId") String fundId,
-    		@PathVariable("horizon") String horizon, @PathVariable("investementPeriod") String investementPeriod) {		
-		return fundService.getFundData(fundId, horizon, investementPeriod);
+	@PostMapping("chessGame/startGame")
+    public List<ResponseData>startNewGame(@RequestBody NextMove nextMove) {	
+		if(!nextMove.getMoveEnum().equals(MoveEnum.STARTGAME))
+			return null;
+		//TODO call appropriate service to configure a new Game 
+		// and return Randomized gameToken as identifier
+		return null;
+    }
+	
+	@PostMapping("chessGame/move")
+    public List<ResponseData> getDetails(@RequestBody NextMove nextMove) {		
+		return null;
     }
 
 }
