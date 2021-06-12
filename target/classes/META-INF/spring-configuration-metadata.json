@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "get",
+      "type": "com.football.ApiConfig",
+      "sourceType": "com.football.ApiConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "get.apikey",
+      "type": "java.lang.String",
+      "sourceType": "com.football.ApiConfig"
+    },
+    {
+      "name": "get.baseurl",
+      "type": "java.lang.String",
+      "sourceType": "com.football.ApiConfig"
+    },
+    {
+      "name": "get.countryurl",
+      "type": "java.lang.String",
+      "sourceType": "com.football.ApiConfig"
+    },
+    {
+      "name": "get.leagueurl",
+      "type": "java.lang.String",
+      "sourceType": "com.football.ApiConfig"
+    },
+    {
+      "name": "get.standingurl",
+      "type": "java.lang.String",
+      "sourceType": "com.football.ApiConfig"
+    },
+    {
+      "name": "get.teamsurl",
+      "type": "java.lang.String",
+      "sourceType": "com.football.ApiConfig"
+    }
+  ],
+  "hints": []
+}

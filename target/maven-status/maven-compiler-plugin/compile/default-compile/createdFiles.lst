@@ -1,0 +1,13 @@
+com\football\entity\Country.class
+com\football\entity\CountryDetails.class
+com\football\service\TeamStandingServiceImpl.class
+com\football\controller\ApiController.class
+META-INF\spring-configuration-metadata.json
+com\football\entity\Response.class
+com\football\entity\TeamStanding.class
+com\football\util\ProjectUtil.class
+com\football\ApiConfig.class
+com\football\FootballApp.class
+com\football\service\TeamStandingService.class
+com\football\entity\LeagueDetails.class
+com\football\entity\Request.class
