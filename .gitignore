@@ -1,2 +1,4 @@
 
 .DS_Store
+target/classes/META-INF/maven/com.cars24.demo/ChessBackend/pom.properties
+*.class
