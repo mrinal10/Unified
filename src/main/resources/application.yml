@@ -1,0 +1,38 @@
+config:
+  productWiseOperationList:
+    book: 
+      - generateShippingSlip
+      - generateDuplicatePackingSlipRoaylty
+      - giveAgentCommision 
+    product:
+      - generateShippingSlip
+      - giveAgentCommision
+    membership:
+      - sendEmail
+    membership_upgrade:
+      - sendEmail
+      - applyUpgrade
+    video:
+      - askVideoName
+      - provideVideo
+    free_video: 
+      learning_to_ski: First_Aid
+      
+  advanceOps:
+    - askVideoName    
+
+  operations:
+    generateShippingSlip: The Shipping slip is generated
+    generateDuplicatePackingSlipRoaylty: Duplicate Packaging slip for Royalty is generated
+    giveAgentCommision: Commision to Agent given
+    applyUpgrade: Membership Upgraded
+    sendEmail: Related Email send to the user
+    askVideoName: What is the video name
+    provideVideo: Video provided
+    
+  productnames:
+    - book
+    - membership
+    - membership_upgrade
+    - video
+    - product 
