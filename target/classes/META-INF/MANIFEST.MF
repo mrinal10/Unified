@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: FireCompass_Backend
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: MRINAL
+Implementation-Vendor-Id: com.firecompass.demo
+Build-Jdk: 1.8.0_201
+Implementation-URL: http://projects.spring.io/spring-boot/firecompass/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
