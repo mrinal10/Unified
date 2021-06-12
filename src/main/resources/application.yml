@@ -1,0 +1,19 @@
+config:
+  drones: 
+    droneid1:
+      droneOccupied: false
+      toCustomer: false
+      toBase: false      
+      droneid: droneid1
+    
+    droneid2:
+      droneOccupied: false
+      toCustomer: false
+      toBase: false
+      droneid: droneid2
+   
+    droneid3:
+      droneOccupied: false
+      toCustomer: false
+      toBase: false
+      droneid: droneid2 
